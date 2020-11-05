@@ -20,18 +20,18 @@ It is intended to have the webapp visualize the highlighted 'network of interest
 ## Building the network:
 Currently the following sources are in consideration, whether they can be integrated into the software (with actual data locally or over APIs) is yet to be explored.
 1. Sources
-  * DBLP for Computer Science
-  * PubMed for Biology
-  * CrossRef
-  * Microsoft Academic Graph
-  * Semantic Scholar
-  * OpenCitations
-  * Open Academic Graphs
-  * WikiData
+   * DBLP for Computer Science
+   * PubMed for Biology
+   * CrossRef
+   * Microsoft Academic Graph
+   * Semantic Scholar
+   * OpenCitations
+   * Open Academic Graphs
+   * WikiData
 2. How to standardize data from mulitple sources?
 3. How to store and process the data for visualization?
-  * Using JS to have client-side processing
-  * Using Graph Databases on server side to improve storage/processing/speed
+   * Using JS to have client-side processing
+   * Using Graph Databases on server side to improve storage/processing/speed
 4. Have layered networks (Authors/Papers/Research Area etc)
   
 ## Other ideas:
