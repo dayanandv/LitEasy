@@ -9,7 +9,7 @@ This project is aimed at creating a web application which can be used by a buddi
 4. Which are the most (threshold) important papers to be read before reading a chosen paper?
 5. How are the nodes weights to be determined? (authors/indegree/scientometric values?)
 6. How are the edge weights (how important is one paper w.r.t another) to be determined?
-7. What is the trend of research in the subset of interest? (waxing/waning : number of papers/citations attached to a timeline) - prediction for future: Gartner Hype Cycle)
+7. What is the trend of research in the subset of interest? (waxing/waning : number of papers/citations attached to a timeline; prediction for future: Gartner Hype Cycle)
 
 ## Visualization:
 It is intended to have the webapp visualize the highlighted 'network of interest' in interactable 3D simulations. This requires use of JS libraries which are being explored. Some questions of interest are:
