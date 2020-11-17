@@ -18,7 +18,7 @@ It is intended to have the webapp visualize the highlighted 'network of interest
 3. How are the sub-networks to be visualized?
 
 ## Feature Extraction:
-Many of the features to be used for the analysis requires features values (like edge weights) to be obtained (through APIs like that of Scopus) or to be calculated. An example for when a calculation is required would be the paper-paper edge weight considering the section of the referee paper in whoch the referenced paper is cited. Other cases of calculation might involve finding metadata (like Keywords) of a paper which are unavailable from other source.
+Many of the features to be used for the analysis requires feature values (like edge weights) to be obtained (through APIs like that of Scopus) or to be calculated. An example for when a calculation is required would be the paper-paper edge weight considering the section of the referee paper in which the referenced paper is cited. Other cases of calculation might involve finding metadata (like Keywords) of a paper which are unavailable from other source.
 
 ## Building the network:
 Currently the following sources are in consideration, whether they can be integrated into the software (with actual data locally or over APIs) is yet to be explored.
