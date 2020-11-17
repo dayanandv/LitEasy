@@ -17,6 +17,9 @@ It is intended to have the webapp visualize the highlighted 'network of interest
 2. How much of data is to visualized to optimize for available resources?
 3. How are the sub-networks to be visualized?
 
+## Feature Extraction:
+Many of the features to be used for the analysis requires features values (like edge weights) to be obtained (through APIs like that of Scopus) or to be calculated. An example for when a calculation is required would be the paper-paper edge weight considering the section of the referee paper in whoch the referenced paper is cited. Other cases of calculation might involve finding metadata (like Keywords) of a paper which are unavailable from other source.
+
 ## Building the network:
 Currently the following sources are in consideration, whether they can be integrated into the software (with actual data locally or over APIs) is yet to be explored.
 1. Sources
@@ -32,7 +35,9 @@ Currently the following sources are in consideration, whether they can be integr
 3. How to store and process the data for visualization?
    * Using JS to have client-side processing
    * Using Graph Databases on server side to improve storage/processing/speed
-4. Have layered networks (Authors/Papers/Research Area etc)
+4. Have layered networks (Authors/Papers/Research Area etc) visualized in 3D and analyzed to answer questions like the ones listed below. The edge weights would have different meaning according to their appearance in each of these layers (author-author : collaboration strength, paper-paper : citation and its relevance, research area - research area : interdisplinary and application nature of the research)
+   * How are authors (researchers) collaborating amongst their peer networks
+   * How is 
   
 ## Other ideas:
 1. Incorporating DGNNs
