@@ -1,3 +1,5 @@
 LitEasy_venv/
-.vscode
+.vscode/
 .gitignore
+.cache/
+*.pyc

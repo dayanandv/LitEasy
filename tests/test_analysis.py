@@ -2,11 +2,6 @@ import networkx as nx
 from liteasy.analysis import thresholded_topological_sort
 import unittest
 
-# print(thresholded_topological_sort(G, 6, 10))
-# print(thresholded_topological_sort(G, 6, 1))
-# print(thresholded_topological_sort(G, 6, 3))
-# print(thresholded_topological_sort(G, 6, -1))
-
 class TestAnalysis(unittest.TestCase):
 
     #Building a dummy directed graph

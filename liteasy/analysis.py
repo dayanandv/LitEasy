@@ -1,6 +1,3 @@
-import networkx as nx
-import matplotlib.pyplot as plt
-
 def thresholded_topological_sort (graph, target_node, threshold):
     """Returns a threshold adjusted subset of the topological sorting of the graph passed as the parameter
 
