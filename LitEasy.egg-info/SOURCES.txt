@@ -1,0 +1,10 @@
+README.md
+setup.py
+LitEasy.egg-info/PKG-INFO
+LitEasy.egg-info/SOURCES.txt
+LitEasy.egg-info/dependency_links.txt
+LitEasy.egg-info/top_level.txt
+liteasy/__init__.py
+liteasy/analysis.py
+tests/__init__.py
+tests/test_analysis.py
