@@ -35,12 +35,13 @@ Currently the following sources are in consideration, whether they can be integr
 3. How to store and process the data for visualization?
    * Using JS to have client-side processing
    * Using Graph Databases on server side to improve storage/processing/speed
-4. Have layered networks (Authors/Papers/Research Area etc) visualized in 3D and analyzed to answer questions like the ones listed below. The edge weights would have different meaning according to their appearance in each of these layers (author-author : collaboration strength, paper-paper : citation and its relevance, research area - research area : interdisplinary and application nature of the research)
-   * How are authors (researchers) collaborating amongst their peer networks
-   * How is 
+4. Have layered networks (Authors/Papers/Research Area etc) visualized in 3D and analyzed answer to questions like the ones listed below. The edge weights would have different meaning according to their appearance in each of these layers (author-author : collaboration strength, paper-paper : citation and its relevance, research area - research area : interdisplinary and application nature of the research)
+   * How are authors (researchers) collaborating amongst their peer networks?
+   * How strong is the collaboration in a particular research area? Can it be quantified?
+   * Are interdisciplinary collaborations contributing significantly in the future direction of a research area? Do they act as weak links?
   
 ## Other ideas:
 1. Incorporating DGNNs
-
+2. Let users read PDFs directly on the webapp using PDF.js and display the metrics (centrality, citations, impact factor of publication venue etc) of the paper along with it.
 
 [1]: https://en.wikipedia.org/wiki/Citation_network "Citation Networks"

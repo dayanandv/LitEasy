@@ -1,0 +1,5 @@
+LitEasy_venv/
+.vscode/
+.cache/
+*.pyc
+data/
