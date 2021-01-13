@@ -5,10 +5,12 @@ This project is aimed at creating a web application which can be used by a buddi
 ## Analysis:
 1. Which are the papers sorted in importance order to be read? (node weights?)
 2. What is the order to read the papers in? (topological sorting?)
-3. Which papers to focus reading, if a trade-off between time available and importance is to be made? (constrained tological sorting?)
+3. Which papers to focus reading, if a trade-off between time available and importance is to be made? (constrained topological sorting?)
 4. Which are the most (threshold) important papers to be read before reading a chosen paper?
 5. How are the nodes weights to be determined? (authors/indegree/scientometric values?)
-6. How are the edge weights (how important is one paper w.r.t another) to be determined?
+6. How are the edge weights (how important is one paper 'A' w.r.t another paper 'B') to be determined? 
+   * Number of times paper B is citing paper A
+   * Sections of the paper B in which paper A is cited (Only Related Works? Or in Discussion and Results Comparison also?)
 7. What is the trend of research in the subset of interest? (waxing/waning : number of papers/citations attached to a timeline; prediction for future: Gartner Hype Cycle)
 
 ## Visualization:
