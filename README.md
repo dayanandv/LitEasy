@@ -1,5 +1,7 @@
 # LitEasy
 
+###Edit: [LitMaps][2] does a good job at most of the intended features
+
 This project is aimed at creating a web application which can be used by a budding researcher to do efficient literature survey of his research problem/area. I intend to use concepts from network science to analyze nodes (paper/authors), edges (connections between nodes) and structural parameters in graphs like [citation networks][1] to answer questions, some of which are listed below in the Analysis section.
 
 ## Analysis:
@@ -47,3 +49,4 @@ Currently the following sources are in consideration, whether they can be integr
 2. Let users read PDFs directly on the webapp using PDF.js and display the metrics (centrality, citations, impact factor of publication venue etc) of the paper along with it.
 
 [1]: https://en.wikipedia.org/wiki/Citation_network "Citation Networks"
+[2]: https://www.litmaps.co/
