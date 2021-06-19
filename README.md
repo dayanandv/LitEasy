@@ -1,6 +1,6 @@
 # LitEasy
 
-### Edit: [LitMaps][2] does a good job at most of the intended features, this project is not being actively developed now.
+### Edit: Since [LitMaps][2] does a good job at most of the intended features, this project is not being actively developed now.
 ## 
 
 This project is aimed at creating a web application which can be used by a budding researcher to do efficient literature survey of his research problem/area. I intend to use concepts from network science to analyze nodes (paper/authors), edges (connections between nodes) and structural parameters in graphs like [citation networks][1] to answer questions, some of which are listed below in the Analysis section.
